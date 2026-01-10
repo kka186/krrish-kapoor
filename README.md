@@ -2,13 +2,13 @@
 
 🎓 **Mechatronic Systems Engineering Student**  
 📍 Langley, BC | Simon Fraser University  
-🛠️ Mechanical • Electrical • Computational Systems
+ Mechanical • Electrical • Computational Systems
 
 I’m a Mechatronics Engineering student with a strong interest in modeling, analyzing, and designing multidisciplinary systems that integrate mechanical structures, electrical circuits, and computational tools. My experience spans structural mechanics, dynamic systems, circuit analysis, and experimental validation using both simulation and real-world measurements.
 
 ---
 
-## 🔧 Technical Skills
+## Technical Skills
 
 **Programming & Computation**
 - Python
@@ -21,11 +21,11 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 
 ---
 
-## 📌 Projects
+## Projects
 
 ---
 
-# ✈️ Mechanical Analysis of a Cessna 172 Aircraft Wing
+#  Mechanical Analysis of a Cessna 172 Aircraft Wing
 
 <details>
   <summary><b>What?</b> (click to expand)</summary>
@@ -77,7 +77,7 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 
 ---
 
-# ⚡ Transient Response Analysis of RC & RL Circuits (Lab + Multisim)
+#  Transient Response Analysis of RC & RL Circuits (Lab + Multisim)
 
 <details>
   <summary><b>What?</b> (click to expand)</summary>
@@ -129,7 +129,7 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 
 ---
 
-# 🧠 Modelling of Mechatronic Systems Using Mechanical–Electrical Analogies
+#  Modelling of Mechatronic Systems Using Mechanical–Electrical Analogies
 
 <details>
   <summary><b>What?</b> (click to expand)</summary>
@@ -181,7 +181,7 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 
 ---
 
-# 🧱 Materials Selection: Aircraft Turbine Fan Blade (Granta EduPack + Eco Audit)
+#  Materials Selection: Aircraft Turbine Fan Blade (Granta EduPack + Eco Audit)
 
 <details>
   <summary><b>What?</b> (click to expand)</summary>
