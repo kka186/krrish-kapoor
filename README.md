@@ -25,13 +25,8 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 ## 📌 Projects
 
 > Tip: Put your images in `/images/` and reference them like `images/filename.png`.
-/images/
+
 cad_model_of_wing.png
-material_properties.png
-wing_fbd_front.png
-wing_fbd_beam.png
-bending_moment.png
-shear_force.png
 
 ---
 
@@ -44,7 +39,7 @@ shear_force.png
   The objective of this project was to analyze the structural integrity of a Cessna 172 wing spar under a conservative loading case (⅓ maximum takeoff weight). The goal was to determine whether the wing could safely withstand bending and shear stresses and to identify the critical section governing failure.
 
   <p align="center">
-    <img src="images/wing_cad.png" width="48%" />
+    <img src="images/cad_model_of_wing.png" width="48%" />
     <img src="images/material_properties.png" width="48%" />
   </p>
 
