@@ -27,7 +27,7 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 ---
 ## 📌 Projects
 
-> Tip: Put your images in `/images/` and reference them like `images/filename.png`.
+
 
 ---
 
@@ -238,25 +238,11 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 </details>
 
 
-
-
----
-
-## 🚀 Interests & Focus Areas
-
-- Mechatronic system design
-- Mechanical–electrical system modeling
-- Dynamic systems and vibrations
-- Embedded and hardware-interfacing projects
-- Engineering analysis backed by experimentation
-
-I enjoy projects where theory, simulation, and real-world behavior come together.
-
 ---
 
 ## 📫 Contact & Links
 
-- 💼 LinkedIn: *(add link)*
+- 💼 LinkedIn: *(https://www.linkedin.com/in/krrish-kapoor-957b07310/)*
 - 📧 Email: kka186@sfu.ca
 
 ---
