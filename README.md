@@ -28,7 +28,7 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 #  Mechanical Analysis of a Cessna 172 Aircraft Wing
 
 <details>
-  <summary><b>What?</b> (click to expand)</summary>
+  <summary><b>What?</b></summary>
   <br>
 
   I analyzed the structural integrity of a Cessna 172 wing spar under a conservative loading case (⅓ max takeoff weight) to identify the critical section and assess safety under bending and shear.
@@ -44,7 +44,7 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 </details>
 
 <details>
-  <summary><b>How?</b> (click to expand)</summary>
+  <summary><b>How?</b></summary>
   <br>
 
   The wing was simplified into a beam with pinned–strut support. Reaction forces were solved using equilibrium and compatibility equations, followed by shear force and bending moment calculations using Macaulay’s method. Stresses at the critical section were evaluated using Mohr’s Circle and Tresca/Von Mises criteria.
@@ -60,7 +60,7 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 </details>
 
 <details>
-  <summary><b>Result</b> (click to expand)</summary>
+  <summary><b>Result</b></summary>
   <br>
 
   The baseline design did not meet safety margin requirements, prompting design improvements involving material and geometric changes. These modifications achieved a target factor of safety of 1.5 while maintaining small wingtip deflection.
