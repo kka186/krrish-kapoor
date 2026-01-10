@@ -241,4 +241,4 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 
 ---
 
-⭐ *Thanks for visiting my GitHub. I’m always open to learning, collaborating, and improving my engineering skills.*
+
