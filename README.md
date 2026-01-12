@@ -24,6 +24,63 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 ## Projects
 
 ---
+
+# Modelling of Mechatronic Systems Using Mechanical–Electrical Analogies
+
+<details>
+  <summary><b>What?</b></summary>
+  <br>
+
+  Modeled the dynamics of a mass–spring–damper system and represented it using an equivalent RLC electrical circuit.
+
+  <table align="center">
+    <tr>
+      <td align="center" width="50%">
+        <img src="images/Electrical Analogies/oscar.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Physical mass–spring–damper system setup.</sub>
+      </td>
+      <td align="center" width="50%">
+        <img src="images/Electrical Analogies/FBD_MSD.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Free-body diagram used for dynamic modeling.</sub>
+      </td>
+    </tr>
+  </table>
+</details>
+
+<details>
+  <summary><b>How?</b></summary>
+  <br>
+
+  Identified natural frequency and damping from response trends, then mapped mechanical parameters to electrical components.
+
+  <p align="center">
+    <img src="images/Electrical Analogies/rlc_conversion.png" width="85%" style="border:1px solid #aaa; padding:4px;" /><br>
+    <sub>Mechanical-to-electrical parameter mapping for RLC analog.</sub>
+  </p>
+</details>
+
+<details>
+  <summary><b>Result</b></summary>
+  <br>
+
+  Electrical analog reproduced resonance and phase behavior observed in the mechanical system.
+
+  <table align="center">
+    <tr>
+      <td align="center" width="50%">
+        <img src="images/Electrical Analogies/magnitude_freq.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Frequency-response magnitude.</sub>
+      </td>
+      <td align="center" width="50%">
+        <img src="images/Electrical Analogies/phase_freq.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Phase response across excitation frequency.</sub>
+      </td>
+    </tr>
+  </table>
+</details>
+
+---
+
 # Mechanical Analysis of a Cessna 172 Aircraft Wing
 
 <details>
@@ -88,23 +145,63 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 
 ---
 
-# Modelling of Mechatronic Systems Using Mechanical–Electrical Analogies
+# Transient Response of Multi-Resistor RC Circuits Using Multisim
 
 <details>
   <summary><b>What?</b></summary>
   <br>
 
-  Modeled the dynamics of a mass–spring–damper system and represented it using an equivalent RLC electrical circuit.
+  Investigated how resistor network topology affects the transient response of an RC circuit by analyzing a multi-resistor configuration.
+
+  <p align="center">
+    <img src="images/Transient Response of Multi-Resistor RC Circuits Using Multisim/multisim_circuit.png" width="85%" style="border:1px solid #aaa; padding:4px;" /><br>
+    <sub>Multisim schematic of the multi-resistor RC circuit.</sub>
+  </p>
+</details>
+
+<details>
+  <summary><b>How?</b></summary>
+  <br>
+
+  Applied step excitation within Multisim and analyzed voltage response. Compared simulated behavior with hand calculations using equivalent resistance methods.
+
+  <p align="center">
+    <img src="images/Transient Response of Multi-Resistor RC Circuits Using Multisim/circuit_schematic.png" width="85%" style="border:1px solid #aaa; padding:4px;" /><br>
+    <sub>Simplified circuit representation used for analytical modeling.</sub>
+  </p>
+</details>
+
+<details>
+  <summary><b>Result</b></summary>
+  <br>
+
+  Extracted an effective time constant from simulation and demonstrated how network topology alters transient response.
+
+  <p align="center">
+    <img src="images/Transient Response of Multi-Resistor RC Circuits Using Multisim/time_constant.png" width="85%" style="border:1px solid #aaa; padding:4px;" /><br>
+    <sub>Simulated step-response curve with effective time constant.</sub>
+  </p>
+</details>
+
+---
+
+# Mechanical Analysis of a Cessna 172 Aircraft Wing
+
+<details>
+  <summary><b>What?</b></summary>
+  <br>
+
+  Analyzed the structural integrity of a Cessna 172 wing spar under a conservative loading case (⅓ maximum takeoff weight) to identify the critical section governing bending and shear behavior.
 
   <table align="center">
     <tr>
       <td align="center" width="50%">
-        <img src="images/Electrical Analogies/oscar.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
-        <sub>Physical mass–spring–damper system setup.</sub>
+        <img src="images/Cessna 172 Wing/wing_model.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Overall wing geometry used for structural modeling.</sub>
       </td>
       <td align="center" width="50%">
-        <img src="images/Electrical Analogies/FBD_MSD.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
-        <sub>Free-body diagram used for dynamic modeling.</sub>
+        <img src="images/Cessna 172 Wing/wing_properties.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Material properties used in stress and deflection analysis.</sub>
       </td>
     </tr>
   </table>
@@ -114,29 +211,37 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
   <summary><b>How?</b></summary>
   <br>
 
-  Identified natural frequency and damping from response trends, then mapped mechanical parameters to electrical components.
+  Simplified the wing into an equivalent beam with pinned–strut support. Solved reaction forces using equilibrium and compatibility, then derived shear force and bending moment distributions using Macaulay’s method. Evaluated stresses using Mohr’s Circle and ductile failure criteria.
 
-  <p align="center">
-    <img src="images/Electrical Analogies/rlc_conversion.png" width="85%" style="border:1px solid #aaa; padding:4px;" /><br>
-    <sub>Mechanical-to-electrical parameter mapping for RLC analog.</sub>
-  </p>
+  <table align="center">
+    <tr>
+      <td align="center" width="50%">
+        <img src="images/Cessna 172 Wing/fbd_front.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Free-body diagram showing applied loads and supports.</sub>
+      </td>
+      <td align="center" width="50%">
+        <img src="images/Cessna 172 Wing/fbd_forces.PNG" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Internal force resolution for the equivalent beam model.</sub>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <details>
   <summary><b>Result</b></summary>
   <br>
 
-  Electrical analog reproduced resonance and phase behavior observed in the mechanical system.
+  Identified insufficient safety margin in the baseline design and justified design improvements. Final outputs highlight the governing load region and internal force distribution.
 
   <table align="center">
     <tr>
       <td align="center" width="50%">
-        <img src="images/Electrical Analogies/magnitude_freq.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
-        <sub>Frequency-response magnitude.</sub>
+        <img src="images/Cessna 172 Wing/bending.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Bending moment distribution along the wing span.</sub>
       </td>
       <td align="center" width="50%">
-        <img src="images/Electrical Analogies/phase_freq.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
-        <sub>Phase response across excitation frequency.</sub>
+        <img src="images/Cessna 172 Wing/shear.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Shear force distribution along the wing span.</sub>
       </td>
     </tr>
   </table>
