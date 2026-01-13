@@ -113,7 +113,7 @@ measure the time constant. The circuit topology included a switch where I must v
   <summary><b>Result</b></summary>
   <br>
 
-  The time constant came out to be 400ms and matched theoretical predictions with zero error.
+  The time constant came out to be 400ms and matched theoretical predictions with zero percent error.
 
   <p align="center">
     <img src="images/Transient Response of Multi-Resistor RC Circuits Using Multisim/time_constant.png" width="85%" style="border:1px solid #aaa; padding:4px;" /><br>
@@ -129,7 +129,7 @@ measure the time constant. The circuit topology included a switch where I must v
   <summary><b>What?</b></summary>
   <br>
 
-  Analyzed the structural integrity of a Cessna 172 wing spar under a conservative loading case (⅓ maximum takeoff weight) to identify the critical section governing bending and shear behavior.
+  Analyzed the structural integrity of a Cessna 172 wing spar under a conservative loading case (⅓ maximum takeoff weight) to identify the critical section governing bending and shear behavior. We also must evaluate whether our component will fail due to internal stresses during flight and the mode of failure. 
 
   <table align="center">
     <tr>
@@ -149,7 +149,7 @@ measure the time constant. The circuit topology included a switch where I must v
   <summary><b>How?</b></summary>
   <br>
 
-  Simplified the wing into an equivalent beam with pinned–strut support. Solved reaction forces using equilibrium and compatibility, then derived shear force and bending moment distributions using Macaulay’s method. Evaluated stresses using Mohr’s Circle and ductile failure criteria.
+  Simplified the wing into an equivalent beam with pinned–strut support, which enabled us to solve reaction forces using equilibrium and compatibility equations. We also assumed drag to be negligible and that the lift force was uniform along the surface of the wing for ease of analysis. We then derived shear force and bending moment distributions using Macaulay’s method and evaluated stresses using Mohr’s Circle and ductile failure criteria. 
 
   <table align="center">
     <tr>
@@ -169,7 +169,7 @@ measure the time constant. The circuit topology included a switch where I must v
   <summary><b>Result</b></summary>
   <br>
 
-  Identified insufficient safety margin in the baseline design and justified design improvements. Final outputs highlight the governing load region and internal force distribution.
+  We found the critical point where the most bending and shear stress on the wing would be at x=1.7m (just before the wing strut). From our Mohr's circle stress and deformation calculations the wing would fail due to yielding as the component had a factor of safety of 0.66. We proposed design improvements including the usage of carbon fibre, or a higher yield strength of aluminum to prevent failure. 
 
   <table align="center">
     <tr>
@@ -193,7 +193,7 @@ measure the time constant. The circuit topology included a switch where I must v
   <summary><b>What?</b></summary>
   <br>
 
-  Selected a turbine fan blade material by balancing mechanical performance, cost, and environmental impact.
+  Selected an optimal material for a commercial aircraft turbine fan blade to minimize weight while meeting safety, durability, cost, thermal, and environmental constraints. 
 
   <p align="center">
     <img src="images/Aircraft Turbine Fan Blade/blade_cavity.png" width="85%" style="border:1px solid #aaa; padding:4px;" /><br>
@@ -205,7 +205,7 @@ measure the time constant. The circuit topology included a switch where I must v
   <summary><b>How?</b></summary>
   <br>
 
-  Screened materials using engineering constraints and ranked finalists using material charts and Eco Audit lifecycle analysis.
+ Modelled the blade with simplified geometry and screened 5 candidate materials in Granta EduPack 2024 R2 using constraint thresholds (e.g., max service temperature, fracture toughness), property charts (natural frequency vs allowable stress/density), and a weighted multi-criteria score across frequency, fracture toughness, price, density, and service temperature.   
 
   <p align="center">
     <img src="images/Aircraft Turbine Fan Blade/naturalfreq_tensile_stress.png" width="85%" style="border:1px solid #aaa; padding:4px;" /><br>
@@ -217,7 +217,7 @@ measure the time constant. The circuit topology included a switch where I must v
   <summary><b>Result</b></summary>
   <br>
 
-  Identified a top-ranked material and justified the selection using combined performance and sustainability metrics.
+Identified Nickel-based superalloys as the best overall choice (balanced fatigue/temperature performance and acceptable environmental impact), with tungsten carbide as highest-performing but environmentally costly due to density, and high-carbon steel as a budget option with weaker high-temp/fatigue suitability. 
 
   <table align="center">
     <tr>
