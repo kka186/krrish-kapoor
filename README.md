@@ -65,17 +65,17 @@ A mass–spring–damper (MSD) system and a flexible vertical beam were experime
   <summary><b>Result</b></summary>
   <br>
 
-  Electrical analog reproduced resonance and phase behavior observed in the mechanical system.
+  The system evidently provided an underdamped response mapping an eqquivalent RLC circuit shown in the above section. The amplitudes measured from the oscilloscope under sine wave excitations yielded a maximum amplitude of 840mV at 500Hz for Channel 1 and 32.8mV at 7000Hz for Channel 2. The maximum phase shift obtained was 342.2 degrees at 7000Hz.
 
   <table align="center">
     <tr>
       <td align="center" width="50%">
-        <img src="images/Electrical Analogies/magnitude_freq.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
-        <sub>Frequency-response magnitude.</sub>
+        <img src="images/Electrical Analogies/amplitude.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Output amplitude of channel 1 and channel 2 versus frequency under a sine wave excitation.</sub>
       </td>
       <td align="center" width="50%">
-        <img src="images/Electrical Analogies/phase_freq.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
-        <sub>Phase response across excitation frequency.</sub>
+        <img src="images/Electrical Analogies/phase.png" width="95%" style="border:1px solid #aaa; padding:4px;" /><br>
+        <sub>Frequency-dependent phase response across a sine wave excitation.</sub>
       </td>
     </tr>
   </table>
