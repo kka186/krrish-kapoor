@@ -65,7 +65,7 @@ A mass–spring–damper (MSD) system and a flexible vertical beam were experime
   <summary><b>Result</b></summary>
   <br>
 
-  The system evidently provided an underdamped response mapping an eqquivalent RLC circuit shown in the above section. The amplitudes measured from the oscilloscope under sine wave excitations yielded a maximum amplitude of 840mV at 500Hz for Channel 1 and 32.8mV at 7000Hz for Channel 2. The maximum phase shift obtained was 342.2 degrees at 7000Hz.
+  The system evidently provided an underdamped response mapping an equivalent RLC circuit shown in the above section. The amplitudes measured from the oscilloscope under sine wave excitations yielded a maximum amplitude of 840mV at 500Hz for Channel 1 and 32.8mV at 7000Hz for Channel 2. The maximum phase shift obtained was 342.2 degrees at 7000Hz.
 
   <table align="center">
     <tr>
