@@ -18,6 +18,7 @@ I’m a Mechatronics Engineering student with a strong interest in modeling, ana
 - Multisim
 - Granta EduPack
 - Arduino
+- AutoCAD
 
 ---
 
